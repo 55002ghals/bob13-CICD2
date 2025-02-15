@@ -7,7 +7,7 @@ const PORT = 3000;
 
 // MySQL 연결 설정
 const db = mysql.createConnection({
-    host: 'mysql-nodejs-service', // Kubernetes 내 서비스 이름
+    host: 'mysql-goals-service', // Kubernetes 내 서비스 이름
     user: 'admin',
     password: 'admin',
     database: 'goals_db'
